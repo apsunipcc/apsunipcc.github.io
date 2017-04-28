@@ -1,30 +1,33 @@
 
 /*==LAYOUT DA PÁGINA==*/
 html { height: 100% }
-body { margin: 0px; background: #A9A9A9; height: 100% }
-#principal { border-left: 0px solid #000; border-right: 0px solid #000; border-style: none; width: 1042px; text-align: auto; margin-left: auto; margin-right: auto; background: #fff; height: auto;}
+body { margin: 0px; background: #ffffff; height: 100% }
+#principal { border-left: 0px solid #000; border-right: 0px solid #000; border-style: none; width: 1043px; text-align: auto; margin-left: auto; margin-right: auto; background: #fff; height: auto;}
 /*==LAYOUT DA PÁGINA==*/
 
 /*=== MENU ===*/
-#nav { width: 1041.9px; height: 36px; background: #000000; float: left; margin: 0px}
+#nav { width: 1042px; height: 36px; background: #000000; float: left; margin: 0px}
 #nav ul { margin: 0px; padding: 0px; list-style: none; width: 100%; float; left; }
-#nav ul li { float: left; font: 16px arial; border: 1px solid #fff;}
-#nav ul li a { color: #fff; text-decoration: none; padding: 10px 31.4px; display: block; }
+#nav ul li { float: left; font: 17px times	; border: 1px solid #fff;}
+#nav ul li a { color: #fff; text-decoration: none; padding: 10px 31.9px; display: block; }
 #nav ul li:hover { background: #008000; }
 /*===MENU===*/
 
+/*===RODAPÉ===*/
+
+.rodape {font-size: 17px ; background: #999999; width:100%; margin-top: 29px; text-align: center}	
 
 #home, #decomposicao, #lixos_reciclaveis, #sustentabilidade, #decomposição, #processo, #contato { background: #008000; }
 
 /*===CSS DA PÁGINA DECOMPOSIÇÃO===*/
 
-p {margin-left: 15px; font-family: arial; font-size: 18px; text-align: justify;}
+p {margin-left: 15px; font-family: times; font-size: 18px; text-align: justify;}
 
 .poluicao { width: 600px; height: 250px; margin-left: 10px;}
 
 .imagem2 { width: 600px; height: 300px; margin-left: 217px; }
 
-table { border-collapse: collapse; font-family: arial; }
+table { border-collapse: collapse; font-family: times; }
 
 th, td, th { border: 2px solid #000000; text-align: center; padding: 20px;} 
 
@@ -38,17 +41,17 @@ h2 { display: table-cell, margin-top: -25px; margin-left: 20px; font-weight:  bo
 
 .processo{ width: 300px; height: 300px; margin-left: 15px; float: left; }
 
-p { font-family: arial; margin-left: 30px; margin-right: 15px; font-size: 18px; text-align: justify;}
+p { font-family: times; margin-left: 30px; margin-right: 15px; font-size: 17px; text-align: justify;}
 
-.introdução {font-size: 15px; margin-top: 30px}
+.introdução {font-size: 17px; margin-top: 30px}
 
-.metais {font-size: 15px; }
+.metais {font-size: 17px; }
 
-.papel { font-size: 15px; }
+.papel { font-size: 17px; }
 
-.plástico { font-size: 15px; }
+.plástico { font-size: 17px; }
 
-.vidro { font-size: 15px; }
+.vidro { font-size: 17px; }
 
 img { width: 1042px; height: 200px; }
 
@@ -56,7 +59,7 @@ img { width: 1042px; height: 200px; }
 
 /*===CSS DA PÁGINA LIXOS RECICLÁVEIS===*/
 
-p { font-size: 18px; font-family: arial; margin-left: 15px;}
+p { font-size: 17px; font-family: times; margin-left: 15px;}
 
 .Lixos { width: 450px; height: 367px; float: left; margin-left: 15px}
 
@@ -65,9 +68,9 @@ p { font-size: 18px; font-family: arial; margin-left: 15px;}
 
 h2 { display: table-cell, margin-top: -25px; margin-left: 20px;}
 
-#tabela { text-align: center; display: table-cell; margin-top: -25px; margin-left:}
+#tabela { text-align: center; display: table-cell; margin-top: -25px;}
 
-table { border-collapse: collapse; font-family: arial; font-size: 18px }
+table { border-collapse: collapse; font-family: times; font-size: 17px }
 
 th, td, th { border: 2px solid #000000; text-align: center; padding: 10px;} 
 
@@ -83,15 +86,15 @@ img { width: 1364px, height: 500px; }
 
 /*===CSS DA PÁGINA SUSTENTABILIDADE===*/
 
-p { margin-left: 15px; font-family: arial; font-size: 18px; text-indent: 40px}
+p { margin-left: 15px; font-family: times; font-size: 17px; text-indent:40px}
 
 .imagem1 { width: 250px; height: 215px; float: left; margin-right: auto; margin-left: 20px; }
 
-.lista-nao-ordenada ul li { margin-left: 20px; font-family: arial; font-size: 18px; }
+.lista-nao-ordenada ul li { margin-left: 20px; font-family: times; font-size: 17px; }
 
 .beneficios { margin-left: 20px; }
 
-.lista-ordenada ol li { margin-top: 10px; font-size: 18px; font-family: arial; }
+.lista-ordenada ol li { margin-top: 10px; font-size: 17px; font-family: times; }
 
 .sustentabilidade { width: 400px; height: 350px; margin-left: 152px; }
 
@@ -99,11 +102,13 @@ p { margin-left: 15px; font-family: arial; font-size: 18px; text-indent: 40px}
 
 /*===CSS DA PÁGINA CONTATO===*/
 
-textarea { margin-left:15px  }
+textarea { margin-left:15px }
 
-input { margin-left: 15PX}
+input { margin-left: 15px; font-size: 17px; font-family: times; }
 
-h3 { margin-left: 15px}
+h3 { margin-left: 15px; font-family: times;}
+
+.contat{ margin-left: 15px; }
 	
 /*===CSS DA PÁGINA CONTATO===*/
 	
@@ -113,8 +118,16 @@ h3 { margin-left: 15px}
 
 .sustentabilidade2 { width: 600px; height: 300px; margin-top: -90px;}	
 
-p {text-indent: 40px}
+p {text-indent: 40px; margin-left: 15px}
+
+.top {width: 70px; height: 70px	}
+
+ .vcsabia {width: 100% ; height: 150px;}
+
+ .recic {width: 450px; height: 350px}
+
+ .lixorec {width: 588px; height: 350px}
 
 /*===CSS DA PÁGINA HOME===*/	
-	  
-.top {width: 70px; height: 70px	}
+
+
